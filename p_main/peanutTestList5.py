@@ -1,10 +1,9 @@
-print("testing the list out now...")
+print("testing the list out now2...")
 
 p_list = [-9999.1, -9999.1, -9999.1, -9999.1, -9999.1, -9999.1, 9999.1, -9999.1, -9999.1, -9999.1, -9999.1, -9999.1, -9999.1, 9999.1, -9999, -9999, -9999, -9999, -9999, -9999, 9999, -9999, -9999, -9999, -9999, -9999, -9999, 9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, 9999.1, 9999.1, 9999.1, -9999.1, -9999.1, -9999.1, -9999.1, -9999.1, -9999.1, -9999.1, -9999.1, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, -9999, True, False]
 
-
-print("the list said this for value 1: " + str(p_list[0]))
-print("the list said this for value 2: " + str(p_list[1]))
+#print("the list said this for value 1: " + str(p_list[0]))
+#print("the list said this for value 2: " + str(p_list[1]))
 
 print("the list said this for the first two values: " + str(p_list[:2]))
 print("the list said this for the last three values: " + str(p_list[-3:]))
