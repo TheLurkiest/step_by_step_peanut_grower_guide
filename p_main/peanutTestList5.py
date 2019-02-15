@@ -83,6 +83,8 @@ while(count<len(l1)):
 		#print('debbbbbbbuuuuuuuuuuuug')
 		if(not_done == 0):
 			print('all sub-tasks complete-- moving on to next task...')
+			old_count = count + 1
+			count = old_count - 1
 		else:
 			p_reply=input('not all sub-tasks have been completed.  Would you like to move on to the next task anyway? (y/n): ')
 			if(p_reply == 'y'):
@@ -98,6 +100,8 @@ while(count<len(l1)):
 		#print('debbbbbbbuuuuuuuuuuuug')
 		if(not_done == 0):
 			print('all sub-tasks complete-- moving on to next task...')
+			old_count = count + 1
+			count = old_count - 1
 		else:
 			p_reply=input('not all sub-tasks have been completed.  Would you like to move on to the next task anyway? (y/n): ')
 			if(p_reply == 'y'):
